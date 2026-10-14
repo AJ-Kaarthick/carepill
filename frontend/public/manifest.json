@@ -1,0 +1,16 @@
+{
+  "short_name": "CarePill",
+  "name": "CarePill — Smart Pill Dispenser & Caregiver Guardian",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F7F6F1",
+  "theme_color": "#145A4A",
+  "display": "standalone",
+  "orientation": "portrait"
+}

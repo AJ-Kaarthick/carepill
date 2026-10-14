@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-page-bg: #F7F6F1;
+  --color-surface: #FFFFFF;
+  --color-ink: #17313A;
+  --color-teal: #145A4A;
+  --color-teal-hover: #0E4236;
+  --color-teal-light: #EAF2EC;
+  --color-muted: #4F6267;
+  --color-mint: #EAF2EC;
+  --color-amber-alert: #9A6700;
+  --color-amber-bg: #FEF3C7;
+  --color-red-alert: #B91C1C;
+  --color-red-bg: #FEE2E2;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #F7F6F1;
+  color: #17313A;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Atkinson Hyperlegible", "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Accessible focus ring */
+*:focus-visible {
+  outline: 3px solid #145A4A;
+  outline-offset: 2px;
+}
+
+/* Tactile button heights */
+button, input, select {
+  font-family: inherit;
+}
